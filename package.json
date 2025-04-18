@@ -1,0 +1,19 @@
+{
+  "name": "coding-exercise",
+  "version": "1.0.0",
+  "description": "## 📌 Overview This exercise simulates a core challenge from our MS Word Add-in: **intelligently inserting legal language into the correct place in a few Word documents, with the correct formatting**.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "docx": "^8.5.0",
+    "fs-extra": "^11.2.0",
+    "jsdom": "^26.1.0",
+    "mammoth": "^1.9.0",
+    "officegen": "^0.6.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
